@@ -1,6 +1,10 @@
 namespace PortioningMachine;
 
-public class arrivalLogger
+public class arrivalLogger : Ilogger
 {
-    
+    public double log()
+    {
+        Console.WriteLine("Item arrived!");
+        return 0;
+    }
 }
